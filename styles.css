@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+#logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+a:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+#hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+
+#sign {
+    width: 400px;
+}
+
+#sign h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#sign p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#img {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    padding: 2px;
+    width: 80px;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-weight: 700;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    outline: 1px solid #F9FAF8;
+}
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    gap: 30px;
+}
+
+.square div {
+    width: 170px;
+    height: 170px;
+    outline: 3px solid #3882F6;
+    border-radius: 5px;
+}
+
+#info h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+#info p {
+    width: 170px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+#quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+
+i {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+strong {
+    margin-top: 20px;
+    float: right;
+}
+
+#action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box {
+    background-color: #3882F6;
+    margin: 60px 0;
+    width: 70%;
+    height: 120px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+#button button {
+    outline: 2px solid white;
+}
+
+#button button:hover {
+    background-color: #186bf1;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
